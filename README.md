@@ -21,4 +21,4 @@ The dataset files contains a train folder for training data and test folder for 
 <p> 
 
 <h2> 3.2 Model Pipeline </h2>
-![Model architecture](P4---Cell-Nuclei-Detection-via-Semantic-Segmentation/images/model_architecture.png "Model Architecture")
+![model_architecture](https://user-images.githubusercontent.com/100177902/163762001-4f100f1b-c371-49b2-a194-7796d04633ea.png)
