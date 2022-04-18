@@ -21,4 +21,18 @@ The dataset files contains a train folder for training data and test folder for 
 <p> 
 
 <h2> 3.2 Model Pipeline </h2>
-![model_architecture](https://user-images.githubusercontent.com/100177902/163762001-4f100f1b-c371-49b2-a194-7796d04633ea.png)
+ ![image](https://user-images.githubusercontent.com/100177902/163766234-85751453-aa2d-4f10-b992-1ada7cc28e38.png)
+<p> 
+The model architecture used for this project is U-Net. You can refer to the TensorFlow documentation for further details. In summary, the model consist of two components, the downward stack, which serves as the feature extractor, and upward stack, which helps to produce pixel-wise output. The model structure is shown in the figure below.
+<p>
+ 
+<p>
+The model is trained with a batch size of 10 and 100 epochs. Early stopping is also applied in the model training. The training stops at epoch 31, with a training accuracy of 97% and validation accuracy of 96%. The model training graphs are shown in figures below.
+<p>
+ ![image](https://user-images.githubusercontent.com/100177902/163766128-2d221500-198b-4123-99f1-10c179a5f12c.png)
+
+<h1> 4. Result </h1>
+<p> The model is evaluated with test data, which is shown in figure below.
+ ![image](https://user-images.githubusercontent.com/100177902/163766461-bae2e805-55cd-4e4d-9420-8dd59ba42a16.png)
+
+<h1> 5. Conclusion </h1>
