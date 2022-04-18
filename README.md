@@ -2,7 +2,7 @@
  Semantic segmentation for Cell Nuclei Detection using U-Net
 <h1> 1. Project Summary </h1>
 <p>
-This project is carried out to implement Deep Learning for Model Training for Semantic Segmentation via U-Net. The objective of this project is to train a model that be able to detect cell nuclei in bidomedical images and since that the cells are usually varies in shape and sizes, semantic segmentation is the best method to implement. U-net has been a generic solution for quantification tasks such as cell detection and shape measurements in biomedical image data accoriding to Falk, T., Mai, D., Bensch, R. et al. U-Net: deep learning for cell counting, detection, and morphometry. Nat Methods 16, 67–70 (2019) [Link](https://pubmed.ncbi.nlm.nih.gov/30559429/).
+This project is carried out to implement Deep Learning Model Training for Semantic Segmentation via U-Net. The objective of this project is to train a model that be able to detect cell nuclei in bidomedical images and since that the cells are usually varies in shape and sizes, semantic segmentation is the best method to implement. U-net has been a generic solution for quantification tasks such as cell detection and shape measurements in biomedical image data accoriding to Falk, T., Mai, D., Bensch, R. et al. U-Net: deep learning for cell counting, detection, and morphometry. Nat Methods 16, 67–70 (2019) [Link](https://pubmed.ncbi.nlm.nih.gov/30559429/).
 </p>
 
 <h1> 2. IDE and Framework </h1>
@@ -21,6 +21,7 @@ The dataset files contains a train folder for training data and test folder for 
 <p> 
 
 <h2> 3.2 Model Pipeline </h2>
+<p> The model architecture can be illustrate as figure below.
  ![image](https://user-images.githubusercontent.com/100177902/163766234-85751453-aa2d-4f10-b992-1ada7cc28e38.png)
 <p> 
 The model architecture used for this project is U-Net. You can refer to the TensorFlow documentation for further details. In summary, the model consist of two components, the downward stack, which serves as the feature extractor, and upward stack, which helps to produce pixel-wise output. The model structure is shown in the figure below.
@@ -36,3 +37,4 @@ The model is trained with a batch size of 10 and 100 epochs. Early stopping is a
  ![image](https://user-images.githubusercontent.com/100177902/163766461-bae2e805-55cd-4e4d-9420-8dd59ba42a16.png)
 
 <h1> 5. Conclusion </h1>
+<p> Semantic segmentation with Deep Learning is widely used in solving Biomedical Image classification. This model succeded to achieve 97% accuracy with modified pre-trained model and converted into U-NET for image segmentation approach. 
