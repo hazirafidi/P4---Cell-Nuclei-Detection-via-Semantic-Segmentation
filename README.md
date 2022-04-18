@@ -25,7 +25,8 @@ The model architecture can be illustrate as figure below.
  
 The model architecture used for this project is U-Net. You can refer to the TensorFlow documentation for further details. In summary, the model consist of two components, the downward stack, which serves as the feature extractor, and upward stack, which helps to produce pixel-wise output. The model structure is shown in the figure below.
 
- 
+![image](https://user-images.githubusercontent.com/100177902/163769994-ff4fc536-5da8-47bd-a014-bf5f020e8421.png)
+
 The model is trained with a batch size of 10 and 100 epochs. Early stopping is also applied in the model training. The training stops at epoch 31, with a training accuracy of 97% and validation accuracy of 96%. The model training graphs are shown in figures below.
  
  ![image](https://user-images.githubusercontent.com/100177902/163766128-2d221500-198b-4123-99f1-10c179a5f12c.png)
